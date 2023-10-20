@@ -7,13 +7,15 @@ Disclaimer: Tested on my 2017 Macbook Pro and my 2020 Razer Blade Windows laptop
 ## Requirements
 
 - CMake 3.11 or higher
-- glfw (`brew install glfw`). On my Mac, I could not get raylib to build with the pre-packaged glfw, and it was just easier to pre-install it.
+- Appropriate C++ devtools for your platform. On Mac you'll just need to install the XCode dev tools or on Windows you can use something like Visual Studio (I use VS 2022 Community and it works fine).
 
 ## Creating a new app
 
 `./create_raylib_app [PROJECT_NAME]`
 
 ## Building and running the new app
+
+This project can be fully built + run from a bash shell, though see below for my thoughts on IDE choice.
 
 ```sh
 cd ./[PROJECT_NAME]
