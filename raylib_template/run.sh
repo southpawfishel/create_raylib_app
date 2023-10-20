@@ -1,0 +1,1 @@
+build/bin/raylib_template
