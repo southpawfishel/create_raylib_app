@@ -15,7 +15,7 @@ Disclaimer: Tested on my 2017 Macbook Pro and my 2020 Razer Blade Windows laptop
 
 ## Building and running the new app
 
-```
+```sh
 cd ./[PROJECT_NAME]
 ./build.sh
 ./run.sh
