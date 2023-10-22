@@ -13,6 +13,10 @@ int main(void) {
 
   InitWindow(screenWidth, screenHeight, "TODO: WINDOW TITLE");
 
+  // NOTE: Textures MUST be loaded after Window initialization (OpenGL context
+  // is required)
+  Texture2D helloWorldTexture = LoadTexture("assets/helloworld.png");
+
   SetTargetFPS(60);  // Set our game to run at 60 frames-per-second
   //--------------------------------------------------------------------------------------
 
@@ -31,6 +35,8 @@ int main(void) {
     ClearBackground(RAYWHITE);
 
     DrawText("HELLO WORLD!", 190, 200, 20, LIGHTGRAY);
+
+    DrawTexture(helloWorldTexture, 190, 250, WHITE);
 
     DrawFPS(10, 10);
 
