@@ -7,7 +7,7 @@ Disclaimer: Tested on my 2017 Macbook Pro and my 2020 Razer Blade Windows laptop
 ## Requirements
 
 - CMake 3.11 or higher
-- Appropriate C++ devtools for your platform. On Mac you'll just need to install the XCode dev tools or on Windows you can use something like Visual Studio (I use VS 2022 Community and it works fine).
+- Appropriate C++ devtools for your platform. On Mac you'll just need to install the XCode dev tools or on Windows you can use something like Visual Studio (I use VS 2022 Community and it works fine). For Linux, I've only tested Ubuntu on WSL for Windows 10. Refer to the raylib Linux setup instructions for more information.
 
 ## Creating a new app
 
